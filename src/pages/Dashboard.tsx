@@ -1,8 +1,10 @@
-
+import MetricCard from "../components/MetricCard"
 
 const Dashboard = () => {
   return (
-    <div>Dashboard</div>
+    <div>
+        <h1 className="text-2xl font-bold">Dashboard</h1>
+    </div>
   )
 }
 

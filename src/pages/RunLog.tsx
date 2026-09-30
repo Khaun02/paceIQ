@@ -2,7 +2,9 @@
 
 const RunLog = () => {
   return (
-    <div>RunLog</div>
+    <div>
+        <h1 className="text-2xl font-bold">Running Log</h1>
+    </div>
   )
 }
 

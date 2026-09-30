@@ -2,7 +2,9 @@
 
 const TrainingPlan = () => {
   return (
-    <div>TrainingPlan</div>
+    <div>
+        <h1 className="text-2xl font-bold">Training Plan</h1>
+    </div>
   )
 }
 

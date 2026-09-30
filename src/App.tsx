@@ -3,23 +3,19 @@ import Dashboard from "./pages/Dashboard";
 import TrainingPlan from "./pages/TrainingPlan";
 import RunLog from "./pages/RunLog";
 import MetricCard from "./components/MetricCard";
+import NavBar from "./components/NavBar";
 
 const App = () => {
   return (
     <>
       <BrowserRouter>
-        <nav>
-          <NavLink to="/">Dashboard</NavLink>
-          <NavLink to="/training-plan">Training Plan</NavLink>
-          <NavLink to="/run-log">Run Log</NavLink>
-        </nav>
+      <NavBar />
         <main>
           <Routes>
             <Route path="/" element={<Dashboard/>} />
             <Route path="/training-plan" element={<TrainingPlan/>} />
             <Route path="/run-log" element={<RunLog/>} />
           </Routes>
-          <MetricCard></MetricCard>
         </main>
       </BrowserRouter>
     </>
